@@ -1,15 +1,6 @@
 ﻿using System;
-using System.CodeDom.Compiler;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Security;
-using System.Security.AccessControl;
-using System.Text;
 using System.Windows.Forms;
 
 namespace PathViewer
