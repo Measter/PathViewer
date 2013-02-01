@@ -115,9 +115,7 @@ namespace PathViewer
       }
       
       string[] splitPaths = path.Split( new[] { ';' }, StringSplitOptions.RemoveEmptyEntries );
-
-      foreach ( string s in splitPaths )
-        lb.Items.Add( s.Trim() );
+      lb.Items.AddRange( splitPaths );
     }
 
     private string AssemblePath( ListBox lb )
